@@ -24,6 +24,9 @@ textarea{
 .description{
   white-space: pre-wrap;
 }
+.description p {
+  padding: 15px
+}
 
 .time-block{
   text-align: center;
@@ -44,12 +47,12 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: rgb(122, 122, 122);
 }
 
 .future {
@@ -68,4 +71,11 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+.form-control {
+  background-color: rgba(165, 163, 163, 0.2);
+}
+
+.form-control:focus {
+  background-color: rgba(153, 151, 151, 0.2);
 }
